@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('backlogo.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 6em;
+    color: #b22222; /* Dark red color */
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 3em;
+    color: #b22222; /* Dark red color */
+}
+
+.header p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.menu-container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section {
+    margin-bottom: 30px;
+}
+
+.menu-section h2 {
+    border-bottom: 2px solid #b22222; /* Dark red color */
+    padding-bottom: 10px;
+    color: #b22222; /* Dark red color */
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.menu-item p {
+    margin: 0;
+    flex: 1;
+    padding-left: 20px;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #b22222; /* Dark red color */
+}

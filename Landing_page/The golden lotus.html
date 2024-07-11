@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Lotus</title>
+    <link rel="stylesheet" href="cssfile.css">
+</head>
+<body>
+    <header>
+        <h1>The Golden Lotus </h1>
+        <p>Experience the Best Local Cuisine</p>
+        <button>Make a Reservation</button>
+        <button>Order Delivery</button>
+
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At The Golden Lotus, we offer a wide variety of local dishes prepared with the freshest ingredients...We pride ourselves on crafting an authentic dining experience that goes beyond mere sustenance. Our passionate chefs, armed with time-honored recipes and a commitment to quality, meticulously prepare each dish to tantalize your taste buds and leave you with a memorable journey & wonders. Come visit @ TGL.</p>
+        
+
+<div class="slideshow-container">
+        <img id="slideshow-image" src="interior.jpg" alt="Slideshow Image" style="width:100%">
+        <button class="next" onclick="nextImage()">Next Image</button>
+  
+</div>
+
+<script src="slide.js"></script>
+
+</section>
+
+    <section id="menu-highlights">
+        <h2>Menu Highlights</h2>
+        <div class="dishes">
+            <div class="dish">
+                <img src="biryani.jpg" alt="Dish 1">
+                <h3>chicken Biryani</h3>
+                
+            </div>
+
+            <div class="dish">
+                <img src="paneer-multinar.png" alt="Dish 2">
+                <h3>Paneer sandwich</h3>
+                
+            </div>
+
+	 
+
+            <div class="dish">
+                <img src="chicken-noodles.png" alt="Dish 3">
+                <h3>chicken noodles</h3>
+            </div>
+
+         
+
+            <div class="dish">
+                <img src="chicken-roll.png" alt="Dish 4">
+                <h3>Chicken Roll</h3>
+                
+            </div>
+
+           
+
+            <div class="dish">
+                <img src="dal-makhin.png" alt="Dish 5">
+                <h3>Dish Dal Makhni</h3>
+                
+            </div>
+
+          
+            <div class="dish">
+                <img src="aloo-paratha.png" alt="Dish 6">
+                <h3>Aloo Paratha</h3>
+                
+            </div>
+	</div>
+            <!-- More dishes... -->
+        </div>
+        <a href="menu/menupages.html">View Full Menu</a>
+    </section>
+
+    <section id="reservations">
+        <h2>Make a Reservation</h2>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="tel" name="contact" placeholder="Contact Number" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="datetime-local" name="datetime" required>
+            <input type="number" name="guests" placeholder="Number of Guests" required>
+            <textarea name="requests" placeholder="Special Requests"></textarea>
+            <button type="submit">Reserve Now</button>
+        </form>
+    </section>
+
+    <section id="delivery">
+        <h2>Order for Delivery</h2>
+        <ol>
+            <li>Browse the Menu</li>
+            <li>Place Your Order</li>
+            <li>Enjoy Your Meal</li>
+        </ol>
+        <button><a href="menu/menupages.html">Order Now</a></button>
+    </section>
+
+    <section id="reviews">
+        <h2>What Our Customers Say</h2>
+        <div class="reviews-carousel">
+            <div class="review">
+                <p>"Amazing food and great service!" - Customer Name</p>
+                <p>⭐⭐⭐⭐⭐</p>
+            </div>
+            <!-- More reviews... -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p>Have any questions or special requests? Contact us!</p>
+        <address>
+            <p>Address: Ring Road Ranchi, Balalong Chowk</p>
+            <p>Phone: 8951985567, 7079136443</p>
+            <p>Email: hegoldenlotusranchi@gmail.com</p>
+        </address>
+        <form>
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <a href="#about">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#menu-highlights">Menu</a>
+            <a href="#reservations">Reservations</a>
+            <a href="#delivery">Delivery</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <form id="newsletter">
+            <label for="email">Subscribe to our newsletter:</label>
+            <input type="email" id="email" name="email" placeholder="Your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+        <p>&copy; 2024 The Golden Lotus. All rights reserved.</p>
+    </footer>
+</body>
+</html>
